@@ -38,5 +38,5 @@ if st.button('Recommend'):
     cols = st.columns(5)
     for col, name, poster in zip(cols, names, posters):
         with col:
-            st.text(name)
             st.image(poster)
+            st.caption(name)
