@@ -1,0 +1,19 @@
+similarity.pkl
+*.csv
+
+# Environment variables
+.env
+
+# Python
+__pycache__/
+*.pyc
+
+# Jupyter
+.ipynb_checkpoints/
+
+# macOS
+.DS_Store
+
+# Virtual environments
+.venv/
+venv/
